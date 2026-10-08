@@ -34,10 +34,10 @@ if __name__ == "__main__":
     """
 
 
-    a = "Bismillah experimen ku jalan "
+    a = "Demo2026"
 
 
-    key = "Admin1234"
+    key = "Sandi123"
 
     encrypted_string = ECBencrypt(a, key)
     print(encrypted_string)

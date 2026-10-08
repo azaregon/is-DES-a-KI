@@ -20,7 +20,9 @@ def tandak_beDES_encrypt(secret_text, secret_key):
     #print(len(secret_bits))
     #print("non permuted bits: ")
     #print(secret_bits)
+
     intitial_permuted_bits = permute(secret_bits, initial_permutation_table)
+    
     #print("permuted bits: ")
     #print(intitial_permuted_bits)
 
